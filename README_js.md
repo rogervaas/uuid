@@ -33,6 +33,12 @@ Features:
 npm install uuid
 ```
 
+or
+
+```shell
+yarn add uuid
+```
+
 Then generate a random UUID (v4 algorithm), which is almost always what you want ...
 
 Version 4 (random):
@@ -118,7 +124,7 @@ should not be considered ready for production use and may change or disappear in
 To run the examples you must first create a dist build of this library in the module root:
 
 ```
-npm run build
+yarn run build
 ```
 
 ## API
@@ -295,5 +301,5 @@ Type `uuid --help` for usage details
 ## Testing
 
 ```shell
-npm test
+yarn test
 ```

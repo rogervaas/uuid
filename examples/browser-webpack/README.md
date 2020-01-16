@@ -1,8 +1,8 @@
 # uuid example Browser with Webpack
 
 ```
-npm install
-npm start
+yarn install
+yarn start
 ```
 
 Then navigate to `example-*.html`.

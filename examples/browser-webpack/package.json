@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "rm -rf dist && webpack",
-    "start": "npm run build && npx http-server . -o"
+    "start": "yarn run build && npx http-server . -o"
   },
   "dependencies": {
     "uuid": "file:../../dist"

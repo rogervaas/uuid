@@ -1,8 +1,8 @@
 # uuid example Browser with rollup.js
 
 ```
-npm install
-npm start
+yarn install
+yarn start
 ```
 
 Then navigate to `example-*.html`.

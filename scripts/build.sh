@@ -9,7 +9,7 @@
 ROOT="$(pwd)/$(dirname "$0")/.."
 cd "$ROOT" || exit 1
 
-PATH="$(npm bin):$PATH"
+PATH="$(yarn bin):$PATH"
 # XXX: $PACKAGE_OUTPUT_PATH must be an absolute path!
 DIR=${PACKAGE_OUTPUT_PATH:-"$ROOT/dist"}
 

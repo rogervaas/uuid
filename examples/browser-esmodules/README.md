@@ -1,8 +1,8 @@
 # uuid example Browser with native ECMAScript Modules
 
 ```
-npm install
-npm test
+yarn install
+yarn test
 ```
 
 Then navigate to `example.html`.
